@@ -28,7 +28,20 @@ const shopify = shopifyApp({
   },
   hooks: {
     afterAuth: async ({ session }) => {
-      shopify.registerWebhooks({ session });
+      console.log("[INFO] afterAuth: Session created for shop", session.shop);
+      try {
+        await shopify.registerWebhooks({ session });
+        console.log(
+          "[INFO] Webhooks registered successfully for shop",
+          session.shop
+        );
+      } catch (error) {
+        console.error(
+          "[ERROR] Webhook registration failed for shop",
+          session.shop,
+          error
+        );
+      }
     },
   },
   ...(process.env.SHOP_CUSTOM_DOMAIN
