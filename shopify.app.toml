@@ -1,6 +1,4 @@
-# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
-
-client_id = "87b98e49c73f16afaf54c265afaf7ade"
+client_id = "3b503f08516c8663da1bd1424036b66f"
 application_url = "https://qr-code-1-nine.vercel.app"
 embedded = true
 name = "qr-code"
@@ -14,7 +12,6 @@ dev_store_url = "amogademo.myshopify.com"
 api_version = "2025-01"
 
 [access_scopes]
-# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
 
 [auth]
