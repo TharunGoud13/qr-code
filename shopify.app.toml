@@ -22,5 +22,6 @@ redirect_urls = [
   "https://qr-code-1-nine.vercel.app/api/auth/callback"
 ]
 
+
 [pos]
 embedded = false
