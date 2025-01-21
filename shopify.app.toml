@@ -1,11 +1,8 @@
-# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
-
-client_id = "3edfa23911dcd39ed5767844bd92867a"
+client_id = "352f2d3a47b6fb5490ad10315c1b2ba0"
 application_url = "https://qr-code-1-nine.vercel.app"
 embedded = true
 name = "qr-app"
 handle = "qr-app-144"
-
 
 [build]
 include_config_on_deploy = true
@@ -14,10 +11,8 @@ dev_store_url = "amogademo.myshopify.com"
 [webhooks]
 api_version = "2025-01"
 
-
 [access_scopes]
-# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,write_orders,write_customers"
 
 [auth]
 redirect_urls = [
