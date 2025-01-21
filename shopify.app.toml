@@ -4,6 +4,7 @@ embedded = true
 name = "qr-code"
 handle = "qr-code-416"
 
+
 [build]
 include_config_on_deploy = true
 dev_store_url = "amogademo.myshopify.com"
