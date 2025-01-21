@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "3edfa23911dcd39ed5767844bd92867a"
-application_url = "https://qr-code-1-nine.vercel.app/"
+application_url = "https://qr-code-1-nine.vercel.app"
 embedded = true
 name = "qr-app"
 handle = "qr-app-144"
