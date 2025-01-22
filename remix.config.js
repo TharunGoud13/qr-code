@@ -18,7 +18,7 @@ module.exports = {
   appDirectory: "app",
   serverModuleFormat: "cjs",
   serverBuildTarget: "netlify",
-  server: "./server.js",
+  server: "../netlify/functions/server.js",
   future: {
     v2_errorBoundary: true,
     v2_headers: true,
